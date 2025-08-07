@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navigation */
+nav {
+  background-color: #222;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+nav h1 {
+  font-size: 1.5rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 1.5rem;
+}
+
+nav ul li a {
+  color: #fff;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+header {
+  background-color: #444;
+  color: #fff;
+  padding: 4rem 1rem;
+}
+
+.header-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header-text {
+  flex: 1;
+  padding: 1rem;
+}
+
+.header-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.header-text p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.header-text .btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+}
+
+.header-text .btn:hover {
+  background-color: #0056b3;
+}
+
+.header-image {
+  flex: 1;
+  text-align: center;
+}
+
+.header-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* About Section */
+#about {
+  padding: 3rem 1rem;
+  background-color: #fff;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  align-items: center;
+}
+
+.about-image {
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+}
+
+.about-image img {
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.about-text {
+  flex: 2;
+  padding: 1rem;
+}
+
+.about-text h2 {
+  margin-bottom: 1rem;
+}
+
+.about-text p {
+  margin-bottom: 1rem;
+}
+
+.about-text .btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+}
+
+.about-text .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #222;
+  color: #fff;
+}
